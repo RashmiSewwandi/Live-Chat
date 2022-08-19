@@ -29,7 +29,7 @@ public class LoginFormController {
         Stage stage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("../view/UserForm.fxml"));
         Scene scene = new Scene(root);
-        stage.initStyle(StageStyle.TRANSPARENT); //Use For Boarder TRANSPARENT
+        stage.initStyle(StageStyle.TRANSPARENT);
         root.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
