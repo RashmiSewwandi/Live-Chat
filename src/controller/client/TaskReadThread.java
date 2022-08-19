@@ -17,6 +17,7 @@ public class TaskReadThread implements Runnable{
         this.client = client;
     }
 
+    //socket ekk hadagena ena msg , server eka read karanwa
     @Override
     public void run() {
         while (true) {
