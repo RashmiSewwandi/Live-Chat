@@ -19,7 +19,7 @@ public class ServerAppInitializer extends Application {
         URL resource = getClass().getResource("view/ServerForm.fxml");
         Parent load = FXMLLoader.load(resource);
         Scene scene = new Scene(load);
-        primaryStage.initStyle(StageStyle.TRANSPARENT); //Use For Boarder TRANSPARENT
+        primaryStage.initStyle(StageStyle.TRANSPARENT);
 
         load.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override

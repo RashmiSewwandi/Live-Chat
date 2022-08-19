@@ -64,7 +64,6 @@ public class LoginFormController {
     public void btnMinimize(ActionEvent actionEvent) {
 
         Stage stage = (Stage) ((Button) actionEvent.getSource()).getScene().getWindow();
-        // is stage minimizable into task bar. (true | false)
         stage.setIconified(true);
 
     }
